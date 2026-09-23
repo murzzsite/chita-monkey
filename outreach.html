@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Аутрич — Чита, видеопоздравления</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo">
+      <svg class="logo__mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="#2FA84F"/>
+        <circle cx="9" cy="12" r="5.5" fill="#1F7A38"/>
+        <circle cx="31" cy="12" r="5.5" fill="#1F7A38"/>
+        <ellipse cx="20" cy="22" rx="12" ry="11" fill="#C98A4B"/>
+        <ellipse cx="20" cy="23" rx="7.5" ry="7" fill="#F2D5AE"/>
+        <circle cx="16.5" cy="21" r="1.6" fill="#2B2312"/>
+        <circle cx="23.5" cy="21" r="1.6" fill="#2B2312"/>
+        <path d="M17 26c1 1.2 5 1.2 6 0" stroke="#2B2312" stroke-width="1.3" stroke-linecap="round"/>
+      </svg>
+      Чита <span class="logo__suffix">видеопоздравления</span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="materials.html" class="btn btn--ghost">Все материалы</a>
+      <a href="index.html#form" class="btn btn--primary">Заказать</a>
+    </div>
+  </div>
+</div>
+
+<div class="doc-hero">
+  <div class="container">
+    <div class="eyebrow">Аутрич</div>
+    <h1>Как писать первыми, а не только ждать заявки</h1>
+    <p>Шаблоны для двух сегментов: организаторы мероприятий/аниматоры и обычные заказчики, которые ищут подарок-сюрприз.</p>
+  </div>
+</div>
+
+<section class="doc-section">
+  <div class="container">
+    <div class="doc-section__head">
+      <div class="eyebrow">Сегмент «Организаторы и аниматоры»</div>
+      <h2>Первое сообщение агентству праздников / студии аниматоров</h2>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Сообщение 1</span>
+      <p>Здравствуйте! Делаем видеопоздравления от Читы — обезьянки, которая снималась в сериале «Майор» на НТВ, на Первом канале и на СТС. Отличный неожиданный элемент для дней рождения и корпоративов. Можно предлагать это своим клиентам как дополнение к программе. Скинуть примеры?</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Ответ на «а вы кто»</span>
+      <p>Работаем в Самаре, снимаем короткие видео и фото с Читой на заказ — от 2000 ₽. У нас 175К подписчиков в Instagram, канал с примерами t.me/Samara_monkey. Можем сделать демо под конкретный праздник, чтобы вы увидели формат вживую.</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Прогрев до сотрудничества</span>
+      <p>Если интересно — можем обсудить партнёрские условия для постоянных заказов от вашего агентства.</p>
+    </div>
+  </div>
+</section>
+
+<section class="doc-section">
+  <div class="container">
+    <div class="doc-section__head">
+      <div class="eyebrow">Сегмент «Частный заказчик»</div>
+      <h2>Первое сообщение тому, кто ищет необычный подарок</h2>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Сообщение 1</span>
+      <p>Здравствуйте! Видел(а), что скоро день рождения у близкого человека — предложу необычный вариант поздравления: видео от Читы, обезьянки-телезвезды («Майор» на НТВ, съёмки на Первом канале и СТС). Она держит лист с вашим текстом, всё снимается специально под заказ. Интересно посмотреть пример?</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Ответ на «а зачем мне это»</span>
+      <p>Это яркий и запоминающийся сюрприз — человек точно не ожидает получить поздравление от узнаваемой теле-звезды. Формат от 2000 ₽, готово обычно в течение суток.</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Закрытие</span>
+      <p>Если интересно — напишите текст поздравления и повод, подберём формат и пришлём реквизиты для оплаты.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Чита — видеопоздравления</span>
+    <a href="materials.html">Все материалы</a>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
