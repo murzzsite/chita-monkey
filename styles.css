@@ -238,6 +238,13 @@ section { padding: 96px 0; }
 }
 .fab:hover { transform: scale(1.08); }
 
+/* Cookie */
+.cookie { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 120; max-width: 720px; margin: 0 auto; background: var(--white); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); padding: 16px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.cookie p { flex: 1 1 240px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; }
+.cookie a { color: var(--accent-dark); font-weight: 600; text-decoration: underline; }
+.cookie__actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie .btn { padding: 10px 18px; font-size: 14px; }
+
 /* Reveal */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
