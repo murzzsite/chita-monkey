@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /chita-monkey/materials.html
+Disallow: /chita-monkey/scripts.html
+Disallow: /chita-monkey/presentation.html
+Disallow: /chita-monkey/outreach.html
+Sitemap: https://murzzsite.github.io/chita-monkey/sitemap.xml
